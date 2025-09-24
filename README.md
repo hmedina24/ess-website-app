@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Executive Security Services Website (ESS)
 
-## Getting Started
+Official repository for the **Executive Security Services (ESS)** one-page website project.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Scope
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The goal of this project is to design, develop, and deploy a **modern, responsive one-page website** for Executive Security Services (ESS).  
+The website will serve as the company’s official digital presence, showcasing its mission, core services, and contact information in a professional and easy-to-navigate format.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Key objectives:
+- Deliver a **clean, modern UI** optimized for desktop and mobile.
+- Highlight ESS’s **services, values, and credibility** through concise sections.
+- Provide a **contact form** and clear calls-to-action for potential clients.
+- Ensure **fast performance, secure hosting, and scalability**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+The project will be built with the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **[Next.js](https://nextjs.org/)** – React framework for optimized, production-ready applications.  
+- **[React](https://react.dev/)** – Core library for building interactive UIs.  
+- **[TailwindCSS](https://tailwindcss.com/)** – Utility-first CSS framework for rapid UI development.  
+- **[GitHub](https://github.com/)** – Version control and project management.  
+- **Deployment Options**:  
+  - **[AWS S3 + CloudFront](https://aws.amazon.com/)** (production-ready, scalable hosting).  
+  - **[Netlify](https://www.netlify.com/)** (cost-effective alternative for fast deployments).  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Deliverables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. A one-page website with the following sections:
+   - Hero / Branding  
+   - About ESS  
+   - Services  
+   - Team (optional, based on client input)  
+   - Testimonials / Clients (optional, based on client input)  
+   - Contact Form & Footer  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Deployment guide & infrastructure documentation.  
+3. Post-handoff client ownership of hosting and billing (AWS or Netlify).  
+
+---
+
+## 📅 Project Workflow
+
+This project will follow an **Agile workflow** with 1-week sprints:
+
+- **Sprint Planning** → Define user stories & priorities.  
+- **Development** → Build scoped features for the sprint.  
+- **Standup Updates** → Track progress & blockers (via GitHub Projects).  
+- **Review & Feedback** → Client review at the end of each sprint.  
+- **Deployment** → Continuous integration with staging & production.  
+
+---
+
+## 📖 License
+
+This project is private and exclusive to **Executive Security Services**.  
+All rights reserved © 2025.
