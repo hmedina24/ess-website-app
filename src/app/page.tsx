@@ -1,13 +1,16 @@
+import Footer from "@/components/layouts/Footer";
 import Navbar from "../components/layouts/Navbar";
 import Hero from "../components/sections/Hero";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <>
       <Navbar />
-      <div className="pt-20"> {/* Padding to avoid Navbar overlap */}
-        <Hero />
-      </div>
-    </main>
+        <main className="relative flex-grow pt-16">
+          <Hero />
+        </main>
+      <Footer />
+    </>
+    
   );
 }
