@@ -1,25 +1,51 @@
+import Link from "next/link";
+import "./Layouts.css";
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-        
-        {/* Logo / Brand */}
-        <div className="text-lg font-semibold text-yellow-400">
-          ESS
+    <footer className="footer">
+      <div className="footer-container">
+        {/* Company Info */}
+        <div className="footer-section">
+          <h4 className="footer-title">Executive Security Services</h4>
+          <p className="footer-text">
+            Providing trusted security solutions with professionalism and care.
+          </p>
         </div>
 
-        {/* Links */}
-        <div className="flex space-x-6">
-          <a href="#hero" className="hover:text-yellow-400">Home</a>
-          <a href="#about" className="hover:text-yellow-400">About</a>
-          <a href="#services" className="hover:text-yellow-400">Services</a>
-          <a href="#contact" className="hover:text-yellow-400">Contact</a>
+        {/* Quick Links */}
+        <div className="footer-section">
+          <h4 className="footer-title">Quick Links</h4>
+          <ul className="footer-links">
+            <li><Link href="#about">About Us</Link></li>
+            <li><Link href="#services">Services</Link></li>
+            <li><Link href="#team">Our Team</Link></li>
+            <li><Link href="#contact">Contact</Link></li>
+          </ul>
         </div>
 
-        {/* Copyright */}
-        <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} Executive Security Services. All rights reserved.
-        </p>
+        {/* Services */}
+        <div className="footer-section">
+          <h4 className="footer-title">Our Services</h4>
+          <ul className="footer-links">
+            <li><Link href="#guarding">Security Guarding</Link></li>
+            <li><Link href="#cctv">CCTV Monitoring</Link></li>
+            <li><Link href="#risk">Risk Assessment</Link></li>
+          </ul>
+        </div>
+
+        {/* Legal */}
+        <div className="footer-section">
+          <h4 className="footer-title">Legal</h4>
+          <ul className="footer-links">
+            <li><Link href="#terms">Terms & Conditions</Link></li>
+            <li><Link href="#privacy">Privacy Policy</Link></li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p>Copyright 2025 © {new Date().getFullYear()} All Rights Reserved. Executive Security Services.</p>
       </div>
     </footer>
   );
