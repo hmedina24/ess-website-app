@@ -1,32 +1,39 @@
+"use client";
+import React from "react";
 import SectionWrapper from "../ui/SectionWrapper";
+import Card from "../ui/Card";
+import { Shield, Users, Camera, AlertTriangle } from "lucide-react"; // or Heroicons
+import "./Sections.css";
 
 const Services = () => {
   return (
-    <SectionWrapper id="services" bgColor="bg-white">
-      <div className="text-center space-y-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Our Services
-        </h2>
-        <div className="grid gap-8 md:grid-cols-3">
-          <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Corporate Security</h3>
-            <p className="text-gray-600">
-              Comprehensive protection for businesses, offices, and sensitive facilities.
-            </p>
-          </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Event Security</h3>
-            <p className="text-gray-600">
-              Trained professionals to manage security at corporate and private events.
-            </p>
-          </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Personal Protection</h3>
-            <p className="text-gray-600">
-              Discreet and reliable personal bodyguard services for individuals and VIPs.
-            </p>
-          </div>
-        </div>
+    <SectionWrapper
+      id="services"
+      bgColor="bg-gray-900"
+      title="Our Services"
+      subtitle="Comprehensive security solutions tailored for your needs."
+    >
+      <div className="services-grid">
+        <Card
+          icon={<Shield />}
+          title="Corporate Security"
+          description="Protecting offices, employees, and assets with professional security teams."
+        />
+        <Card
+          icon={<Users />}
+          title="Event Security"
+          description="Ensuring safe and secure environments for private and public events."
+        />
+        <Card
+          icon={<Camera />}
+          title="CCTV Monitoring"
+          description="24/7 surveillance and monitoring with the latest security technology."
+        />
+        <Card
+          icon={<AlertTriangle />}
+          title="Emergency Response"
+          description="Quick and effective action during critical situations."
+        />
       </div>
     </SectionWrapper>
   );
