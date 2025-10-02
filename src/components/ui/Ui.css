@@ -1,0 +1,28 @@
+.section-wrapper {
+  padding: 5rem 1.5rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-content {
+  max-width: 72rem; /* 1152px */
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: #d1d5db; /* Tailwind gray-300 */
+}
