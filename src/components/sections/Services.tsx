@@ -18,21 +18,25 @@ const Services = () => {
           icon={<Shield />}
           title="Corporate Security"
           description="Protecting offices, employees, and assets with professional security teams."
+          variant="default"
         />
         <Card
           icon={<Users />}
           title="Event Security"
           description="Ensuring safe and secure environments for private and public events."
+          variant="default"
         />
         <Card
           icon={<Camera />}
           title="CCTV Monitoring"
           description="24/7 surveillance and monitoring with the latest security technology."
+          variant="default"
         />
         <Card
           icon={<AlertTriangle />}
           title="Emergency Response"
           description="Quick and effective action during critical situations."
+          variant="default"
         />
       </div>
     </SectionWrapper>

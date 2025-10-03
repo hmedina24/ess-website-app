@@ -9,7 +9,7 @@ const About = () => {
   return (
     <SectionWrapper
       id="about"
-      bgColor="bg-gray-800"
+      bgColor="bg-gray-900"
       title="About Us"
       subtitle="Trusted security solutions for peace of mind."
     >
