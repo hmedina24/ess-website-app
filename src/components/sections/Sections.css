@@ -154,3 +154,139 @@
   margin-top: 2rem;
 }
 
+/* =====================
+   CONTACT SECTION STYLES
+   ===================== */
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1.5rem;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.contact-details li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #374151;
+}
+
+.contact-btn {
+  background-color: #facc15;
+  color: #111827;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-btn:hover {
+  background-color: #fde047;
+  transform: translateY(-3px);
+}
+
+/* FORM STYLES */
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+label {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  color: #000;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #facc15;
+  box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.3);
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #111827;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1f2937;
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 100%;
+  }
+}
+
+/* TURNSTILE */
+.turnstile-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
